@@ -1,0 +1,270 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background: black;
+    color: white;
+}
+body.active
+{
+    background: white;
+    transition: 1s;
+    color: black;
+}
+section
+{
+    
+    padding: 0 100px;
+    
+}
+
+    
+.sec1
+{
+    position: relative;
+    padding-bottom: 150px;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    color: #ff3a3a;
+}
+
+header ul
+{
+    display: flex;
+    
+}
+header ul li
+{
+    margin-left: 30px;
+    list-style: none;
+}
+header ul li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+a.active
+{
+    color: black;
+}
+header ul li a.df
+{
+    color: #ff3a3a;
+    border-bottom: 1px solid #ff3a3a;
+}
+.sec1 .text-box
+{
+    position: relative;
+    margin-top: 100px;
+    width: 40%;
+    
+}
+.sec1 .text-box h1
+{
+    font-size: 4rem;
+    line-height: 70px;
+    margin-bottom: 20px;
+
+}
+.sec1 .text-box h1 span
+{
+    color: #ff3a3a;
+}
+.sec1 .text-box p
+{
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.sec1 .text-box p.df
+{
+    font-size: 15px;
+    color: #ff3a3a;
+    margin-bottom: 0;
+}
+.sec1 .btn-box
+{
+    display: flex;
+}
+button
+{
+    padding: 10px 15px;
+    background: #ff3a3a;
+    border-radius: 30px;
+    border: none;
+    margin-right: 4px;
+}
+button.df
+{
+    color: white;
+    border: 1px solid white;
+    background: transparent;
+}
+.sec1 img
+{
+    width: 430px;
+    height: 430px;
+    position: absolute;
+    top: 80px;
+    right: 100px;
+}
+.toggle
+{
+    width: 40px;
+    height: 40px;
+    background: url(images/light.jpg);
+    object-fit: cover;
+    cursor: pointer;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+}
+.toggle.active
+{
+    width: 40px;
+    height: 40px;
+    background: url(images/moon.png);
+    object-fit: cover;
+    cursor: pointer;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+.bg-img
+{
+    width: 300px;
+    height: 450px;
+    background: #ff3a3a;
+    position: absolute;
+    top: 60px;
+    right: 160px;
+    border-radius: 50%;
+    transform: rotateZ(60deg);
+}
+.sec2 .content
+{
+    display: flex;
+    padding: 50px 0;
+}
+.sec2 .content .text-box
+{
+    width: 50%;
+}
+.sec2 .content img
+{
+    width: 50%;
+}
+.sec2 .content .text-box h1
+{
+    line-height: 26px;
+    z-index: 2;
+    font-size: 3rem;
+}
+.sec2 .content .text-box h1 span
+{
+    font-size: 5rem;
+    z-index: 1;
+    opacity: 0.2;
+}
+.sec2 .content .text-box p
+{
+    margin-top: 10px;
+}
+.sec2 .content .text-box .form
+{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.form p
+{
+    font-size: 1.5rem;
+}
+.form h3
+{
+    font-size: 1.5rem;
+    margin-bottom: 13px;
+}
+.form .infor p
+{
+    margin-top: 0;
+}
+.sec2 img
+{
+    width: 340px;
+    height: 600px;
+}
+.j
+{
+    text-align: center;
+}
+.sec2 button
+{
+    margin-left: 39%;
+    margin-top: 6px;
+
+}
+.sec3
+{
+    padding: 50px 0;
+}
+.sec3 h1
+{
+    line-height: 26px;
+    z-index: 2;
+    font-size: 3rem;
+    text-align: center;
+}
+.sec3 h1 span
+{
+    font-size: 4rem;
+    z-index: 1;
+    opacity: 0.2;
+}
+.sec3 .content
+{
+    display: flex;
+    
+    margin-top: 100px;
+    padding: 0px 100px;
+    justify-content: center;
+}
+.sec3 h3
+{
+    text-align: center;
+    margin-right: 100px;
+    margin-top: 40px;
+}
+form
+{
+    
+}
+.sec3 form .rates
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.sec3 .line
+{
+    width: 360px;
+    height: 2px;
+    background-color: #ff3a3a;
+    margin-left: 50px;
+    
+    
+}
+
+
+
